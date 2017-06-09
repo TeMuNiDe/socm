@@ -1,0 +1,20 @@
+.prime-loader{
+  position: absolute;
+  top:50%;
+  left: 50%;
+}
+.story-list{
+float: left;
+height: 100vh;
+padding: 20px
+}
+.list-item{
+  
+  margin-top: 20px;
+}
+.full-story-container{
+    height: 100vh;
+  padding: 30px;
+
+
+}
