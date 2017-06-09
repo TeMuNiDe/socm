@@ -51,6 +51,7 @@ render() {
 
   var fullStory  =
   <div className="full-story-container">
+    <img src={story._embedded["wp:featuredmedia"][0].source_url} alt={story.title.rendered}/>
    <div className="story-content"><InnerHTML content={story.content.rendered}/></div>
 </div>
     return fullStory;
